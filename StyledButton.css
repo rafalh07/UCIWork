@@ -1,0 +1,26 @@
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-active {
+  background-color: green; /* Color cuando está activo */
+}
+
+.button-disabled {
+  background-color: lightgray; /* Color cuando está deshabilitado */
+  cursor: not-allowed; /* Cambia el cursor cuando está deshabilitado */
+}
+
+.button-large {
+  font-size: 20px; /* Tamaño de fuente grande */
+}
+
+.button-small {
+  font-size: 12px; /* Tamaño de fuente pequeño */
+}
